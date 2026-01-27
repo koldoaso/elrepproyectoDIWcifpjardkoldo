@@ -1,0 +1,51 @@
+[
+    {
+        "title": "Theraphosa blondi",
+        "info": "La tarántula gigante de Goliat es la más grande del mundo. Puede alcanzar hasta 30 cm de envergadura y pesar más de 170 gramos. Habita en selvas húmedas de Suramérica y se alimenta principalmente de insectos y pequeños vertebrados.",
+        "imagen": "theraphosa-blondi.webp"
+    },
+    {
+        "title": "Latrodectus mactans",
+        "info": "La viuda negra es conocida por su veneno potente y su cuerpo negro brillante con la característica marca roja en forma de reloj de arena. Prefiere hábitats oscuros y tranquilos, y su mordedura puede causar síntomas severos en humanos, aunque rara vez es mortal.",
+        "imagen": "Black_widow_spider.jpg"
+    },
+    {
+        "title": "Nephila clavipes",
+        "info": "La araña dorada tejedora de orbes se distingue por su telaraña de hilos dorados. Sus hembras pueden alcanzar más de 5 cm y son depredadoras muy eficientes, atrapando insectos voladores en sus redes casi invisibles al sol.",
+        "imagen": "DirkvdM_Nephila_clavipes.jpg"
+    },
+    {
+        "title": "Nephilengys cruentata",
+        "info": "Esta araña es conocida por sus largas telarañas en forma de red y su patrón de color marrón rojizo. Habita principalmente en zonas tropicales y subtropicales, y es reconocida por su comportamiento agresivo hacia otras arañas invasoras en su territorio.",
+        "imagen": "Nephilingis_cruentata.jpg"
+    },
+    {
+        "title": "Lycosa tarantula",
+        "info": "Conocida como la tarántula europea o lobo, esta especie no teje telarañas para atrapar presas, sino que las caza activamente en el suelo. Vive en madrigueras y puede alcanzar hasta 30 mm de longitud corporal.",
+        "imagen": "Lycosa_tarantula.webp"
+    },
+
+
+    {
+        "title": "Argiope argentata",
+        "info": "La araña plateada tejedora de orbes es famosa por el diseño en zigzag que crea en el centro de su telaraña. Su cuerpo metálico y brillante actúa como camuflaje entre los rayos del sol.",
+        "imagen": "argentata.webp"
+    },
+    {
+        "title": "Misumena vatia",
+        "info": "Conocida como la araña cangrejo dorada, puede cambiar de color entre blanco y amarillo para mimetizarse con las flores donde acecha a sus presas. Es común en praderas y jardines.",
+        "imagen": "misumena_vatia.webp"
+    },
+    {
+        "title": "Aphonopelma chalcodes",
+        "info": "La tarántula rubia del desierto habita en el suroeste de Estados Unidos. De carácter tranquilo, su cuerpo presenta tonos dorados y marrones. Se alimenta de insectos, pequeños reptiles y roedores.",
+        "imagen": "Aphonopelma_chalcodes.webp"
+    },
+
+
+    {
+        "title": "Pholcus phalangioides",
+        "info": "Esta araña bastante común en los hogares tiene una longitud media en las hembras de 9 mm y en los machos de 8 mm. Habita principalmente en los techos y esquinas de las habitaciones. Sus patas pueden llegar a medir hasta 6 veces la longitud de sus cuerpos y se alimentan principalmente de otros insectos como otras arañas más pequeñas u hormigas.",
+        "imagen": "Pholcus.phalangioides.jpg"
+    }
+]
