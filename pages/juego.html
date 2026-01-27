@@ -15,19 +15,13 @@
 <body role="document">
 
     <!-- Skip link -->
-    <a href="#contenido"
-       class="skip-link"
-       aria-label="Saltar directamente al contenido principal">
-        Saltar al contenido
-    </a>
+    <a href="#contenido" class="skip-link">Saltar al contenido</a>
 
     <script src="../scripts/colores.js"></script>
 
     <!-- HEADER -->
     <header role="banner">
-        <img src="../images/spider-web-corner-1.webp"
-             alt="Telaraña decorativa"
-             class="telarana">
+        <img src="../images/spider-web-corner-1.webp" alt="Telaraña decorativa" class="telarana">
 
         <h1>
             <img src="../Font-Awesome-SVGs/spider-solid-full.svg"
@@ -38,15 +32,13 @@
             El mundo de las arañas
         </h1>
 
-        <nav role="navigation" aria-label="Navegación principal">
+        <nav role="navigation">
             <a href="../index.html">Inicio</a>
             <a href="informacionCookies.html">Política de cookies</a>
             <a href="info.html">Información</a>
             <a href="juego.html" aria-current="page">Juego</a>
 
-            <button id="modoToggle"
-                    aria-pressed="false"
-                    aria-label="Cambiar entre modo claro y oscuro">
+            <button id="modoToggle" aria-pressed="false">
                 Claro / Oscuro
             </button>
         </nav>
@@ -56,9 +48,7 @@
     <main id="contenido" role="main">
 
         <!-- Navegación lateral -->
-        <aside class="lateralNav"
-               role="navigation"
-               aria-label="Navegación secundaria">
+        <aside class="lateralNav" role="navigation">
             <a href="../index.html">Inicio</a>
             <a href="./informacionCookies.html">Política de cookies</a>
             <a href="./info.html">Información</a>
@@ -66,33 +56,25 @@
         </aside>
 
         <!-- JUEGO -->
-        <section role="region" aria-labelledby="juegoTitulo">
+        <section aria-labelledby="juegoTitulo">
             <h2 id="juegoTitulo">Adivina qué araña es…</h2>
 
-            <div class="card"
-                 id="game"
-                 role="application"
-                 aria-describedby="instruccionesJuego">
+            <div class="card" id="game" role="application" aria-describedby="instruccionesJuego">
 
                 <p id="instruccionesJuego">
                     Selecciona la respuesta correcta para cada pregunta del juego.
                 </p>
 
-                <h3 id="preguntaTitulo"
-                    aria-live="polite">
+                <h3 id="preguntaTitulo" aria-live="polite">
                     Si ves este texto, el JavaScript no está activo.
                 </h3>
 
-                <div id="respuestas"
-                     role="group"
-                     aria-label="Opciones de respuesta">
+                <div id="respuestas" role="group">
                     <!-- Botones generados por JavaScript -->
                 </div>
             </div>
 
-            <h3 id="resultado"
-                role="status"
-                aria-live="assertive">
+            <h3 id="resultado" role="status" aria-live="assertive">
                 Su resultado es:
             </h3>
         </section>
@@ -106,15 +88,13 @@
 
         <p>Proyecto Estilos 2025 CIFP Ciudad Jardín – Koldo Aso</p>
 
-        <section class="map"
-                 role="region"
-                 aria-labelledby="mapaTitulo">
+        <section class="map" aria-labelledby="mapaTitulo">
             <h2 id="mapaTitulo">Encuéntranos</h2>
 
             <iframe
                 title="Mapa con la ubicación del CIFP Ciudad Jardín"
                 aria-describedby="mapaDesc"
-                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Araba%20Kalea,%2039,%2001006%20Vitoria-Gasteiz&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Araba%20Kalea,%2039,%2001006%20Vitoria-Gasteiz&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
             </iframe>
 
             <p id="mapaDesc">

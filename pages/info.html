@@ -16,32 +16,25 @@
     <script src="../scripts/colores.js"></script>
 
     <!-- Enlace de salto -->
-    <a href="#contenido" class="skip-link" aria-label="Saltar directamente al contenido principal">
-        Saltar al contenido
-    </a>
+    <a href="#contenido" class="skip-link">Saltar al contenido</a>
 
     <!-- HEADER -->
     <header role="banner">
         <img src="../images/spider-web-corner-1.webp" alt="Telaraña decorativa" class="telarana">
 
         <h1>
-            <img src="../Font-Awesome-SVGs/spider-solid-full.svg" alt="" width="40" height="40"
-                aria-hidden="true">
+            <img src="../Font-Awesome-SVGs/spider-solid-full.svg" alt="" width="40" height="40" aria-hidden="true">
             El mundo de las arañas
         </h1>
 
         <!-- Navegación principal -->
-        <nav role="navigation" aria-label="Navegación principal">
+        <nav role="navigation">
             <a href="../index.html">Inicio</a>
             <a href="informacionCookies.html">Política de cookies</a>
             <a href="info.html" aria-current="page">Información</a>
             <a href="juego.html">Juego</a>
 
-            <button id="modoToggle"
-                aria-pressed="false"
-                aria-label="Cambiar entre modo claro y oscuro">
-                Claro / Oscuro
-            </button>
+            <button id="modoToggle" aria-pressed="false">Claro / Oscuro</button>
         </nav>
     </header>
 
@@ -49,7 +42,7 @@
     <main id="contenido" role="main">
 
         <!-- Navegación lateral -->
-        <aside class="lateralNav" role="navigation" aria-label="Navegación lateral">
+        <aside class="lateralNav" role="navigation">
             <a href="../index.html">Inicio</a>
             <a href="./informacionCookies.html">Política de cookies</a>
             <a href="./info.html" aria-current="page">Información</a>
@@ -59,39 +52,22 @@
         <!-- Buscador -->
         <section class="navegacion" role="search">
             <h2 id="buscarTitulo">Buscar arañas</h2>
-
-            <input type="text"
-                id="navigator"
-                aria-labelledby="buscarTitulo"
-                aria-describedby="buscarDesc">
-
-            <p id="buscarDesc">
-                Escribe el nombre de una araña para filtrar las especies disponibles
-            </p>
+            <input type="text" id="navigator" aria-labelledby="buscarTitulo" aria-describedby="buscarDesc">
+            <p id="buscarDesc">Escribe el nombre de una araña para filtrar las especies disponibles</p>
         </section>
 
         <!-- Listado de especies -->
         <section role="region" aria-labelledby="especiesTitulo">
             <h2 id="especiesTitulo">Especies de arañas</h2>
-
-            <div id="cards"
-                role="list"
-                aria-live="polite"
-                aria-label="Listado de especies de arañas">
+            <div id="cards" role="list" aria-live="polite">
                 <!-- Tarjetas generadas por JS -->
             </div>
         </section>
 
         <!-- Llamada a la acción -->
         <section class="hero" role="region" aria-labelledby="juegoTitulo">
-            <h2 id="juegoTitulo">
-                ¿Crees poder contestar algunas preguntas sobre estas arañas?
-            </h2>
-
-            <a href="./juego.html"
-               class="btn"
-               role="button"
-               aria-label="Ir al juego de preguntas sobre arañas">
+            <h2 id="juegoTitulo">¿Crees poder contestar algunas preguntas sobre estas arañas?</h2>
+            <a href="./juego.html" class="btn" role="button">
                 Jugar
                 <img src="../images/spider.webp" alt="Ilustración de una araña">
             </a>
@@ -104,16 +80,10 @@
 
         <section class="map" role="region" aria-labelledby="mapaTitulo">
             <h2 id="mapaTitulo">Encuéntranos</h2>
-
-            <iframe
-                title="Mapa con la ubicación del centro CIFP Ciudad Jardín"
-                aria-describedby="mapaDesc"
-                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Araba%20Kalea,%2039,%2001006%20Vitoria-Gasteiz,%20Araba&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+            <iframe title="Mapa con la ubicación del centro CIFP Ciudad Jardín" aria-describedby="mapaDesc"
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Araba%20Kalea,%2039,%2001006%20Vitoria-Gasteiz&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
             </iframe>
-
-            <p id="mapaDesc">
-                Mapa interactivo que muestra la localización del centro educativo
-            </p>
+            <p id="mapaDesc">Mapa interactivo que muestra la localización del centro educativo</p>
         </section>
 
         <script src="../scripts/cards.js"></script>
