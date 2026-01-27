@@ -6,63 +6,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Koldo Aso">
     <title>Inicio</title>
+    <meta name="description" content="Página de inicio de la web El mundo de las arañas">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <meta name="description" content="Pagina de inicio de la web">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 
-<body><a href="#contenido" class="skip-link">Saltar al contenido</a>
+<body role="document">
+
+    <!-- Skip link -->
+    <a href="#contenido"
+       class="skip-link"
+       aria-label="Saltar directamente al contenido principal">
+        Saltar al contenido
+    </a>
+
     <script src="./scripts/colores.js"></script>
-    <header>
-        <img src="images/spider-web-corner-1.webp" alt="telaraña" class="telarana">
-        <h1><img src="./Font-Awesome-SVGs/spider-solid-full.svg" alt="Spider icon" width="40" height="40">El mundo de
-            las arañas</h1>
-        <nav>
-            <a href="./index.html">Inicio</a>
-            <a href="./pages/informacionCookies.html">Politica de cookies</a>
+
+    <!-- HEADER -->
+    <header role="banner">
+        <img src="images/spider-web-corner-1.webp"
+             alt="Telaraña decorativa"
+             class="telarana">
+
+        <h1>
+            <img src="./Font-Awesome-SVGs/spider-solid-full.svg"
+                 alt=""
+                 width="40"
+                 height="40"
+                 aria-hidden="true">
+            El mundo de las arañas
+        </h1>
+
+        <nav role="navigation" aria-label="Navegación principal">
+            <a href="./index.html" aria-current="page">Inicio</a>
+            <a href="./pages/informacionCookies.html">Política de cookies</a>
             <a href="./pages/info.html">Información</a>
             <a href="./pages/juego.html">Juego</a>
-            <button id="modoToggle">Claro / Oscuro</button>
+
+            <button id="modoToggle"
+                    aria-pressed="false"
+                    aria-label="Cambiar entre modo claro y oscuro">
+                Claro / Oscuro
+            </button>
         </nav>
     </header>
 
-    <main id="contenido">
+    <!-- MAIN -->
+    <main id="contenido" role="main">
 
-        <div class="lateralNav">
-            <a href="./index.html">Inicio</a>
-            <a href="./pages/informacionCookies.html">Politica de cookies</a>
+        <!-- Navegación lateral -->
+        <aside class="lateralNav"
+               role="navigation"
+               aria-label="Navegación secundaria">
+            <a href="./index.html" aria-current="page">Inicio</a>
+            <a href="./pages/informacionCookies.html">Política de cookies</a>
             <a href="./pages/info.html">Información</a>
             <a href="./pages/juego.html">Juego</a>
-        </div>
-        <section class="hero">
-            <h2>Descubre el mundo de las arañas</h2>
+        </aside>
+
+        <!-- Hero -->
+        <section class="hero"
+                 role="region"
+                 aria-labelledby="heroTitulo">
+            <h2 id="heroTitulo">Descubre el mundo de las arañas</h2>
             <p>Aprende y juega mientras descubres diferentes especies de este animal.</p>
-            <a href="./pages/info.html" class="btn">Comenzar <img src="images/spider.webp" alt="araña"></a>
+
+            <a href="./pages/info.html"
+               class="btn"
+               role="button"
+               aria-label="Comenzar a explorar la información sobre arañas">
+                Comenzar
+                <img src="images/spider.webp" alt="Ilustración de una araña">
+            </a>
         </section>
 
-        <section class="intro">
-            <h2>¿Qué encontrarás aquí?</h2>
+        <!-- Introducción -->
+        <section class="intro"
+                 role="region"
+                 aria-labelledby="introTitulo">
+            <h2 id="introTitulo">¿Qué encontrarás aquí?</h2>
             <ul>
                 <li>Curiosidades sobre especies de arañas</li>
                 <li>Mini-juego tipo Kahoot</li>
             </ul>
         </section>
+
     </main>
 
-    <footer>
-        <p>Proyecto Estilos 2025 CIFP ciudad jardin – Koldo Aso</p>
-        <div>
-            <div class="map">
-                <h2>ENCUENTRANOS</h2>
-                <iframe
-                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Araba%20Kalea,%2039,%2001006%20Vitoria-Gasteiz,%20Araba+(Encuentranos)&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-                </iframe>
-            </div>
-        </div>
+    <!-- FOOTER -->
+    <footer role="contentinfo">
+        <p>Proyecto Estilos 2025 CIFP Ciudad Jardín – Koldo Aso</p>
+
+        <section class="map"
+                 role="region"
+                 aria-labelledby="mapaTitulo">
+            <h2 id="mapaTitulo">Encuéntranos</h2>
+
+            <iframe
+                title="Mapa con la ubicación del CIFP Ciudad Jardín"
+                aria-describedby="mapaDesc"
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=es&amp;q=Araba%20Kalea,%2039,%2001006%20Vitoria-Gasteiz&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+            </iframe>
+
+            <p id="mapaDesc">
+                Mapa interactivo con la localización del centro educativo
+            </p>
+        </section>
+
         <script src="./scripts/cookies.js"></script>
         <script src="./scripts/main.js"></script>
     </footer>
 
 </body>
-
 </html>
