@@ -1,44 +1,70 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Koldo Aso">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Koldo Aso" />
     <title>Inicio</title>
-    <meta name="description" content="Página de inicio de la web El mundo de las arañas">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="stylesheet" href="styles/styles.css">
+    <meta
+      name="description"
+      content="Página de inicio de la web El mundo de las arañas"
+    />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="styles/styles.css" />
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-MV9ZJ99T');</script>
-    <!-- End Google Tag Manager -->
-</head>
-
-<body>
-
-    <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "v7zbypvfek");
-</script>
-        <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0S4Y0M9P06"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-MV9ZJ99T");
+    </script>
+    <!-- End Google Tag Manager -->
+  </head>
 
-    gtag('config', 'G-0S4Y0M9P06');
+  <body>
+    <script type="text/javascript">
+      (function (c, l, a, r, i, t, y) {
+        c[a] =
+          c[a] ||
+          function () {
+            (c[a].q = c[a].q || []).push(arguments);
+          };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = "https://www.clarity.ms/tag/" + i;
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
+      })(window, document, "clarity", "script", "v7zbypvfek");
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-0S4Y0M9P06"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-0S4Y0M9P06");
     </script>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MV9ZJ99T"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-MV9ZJ99T"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <!-- Skip link -->
     <a href="#contenido" class="skip-link">Saltar al contenido</a>
@@ -47,83 +73,87 @@
 
     <!-- HEADER -->
     <header>
-        <img src="images/spider-web-corner-1.webp" alt="Telaraña decorativa" class="telarana">
+      <img
+        src="images/spider-web-corner-1.webp"
+        alt="Telaraña decorativa"
+        class="telarana"
+      />
 
-        <h1>
-            <img src="./Font-Awesome-SVGs/spider-solid-full.svg"
-                 alt=""
-                 width="40"
-                 height="40"
-                 aria-hidden="true">
-            El mundo de las arañas
-        </h1>
+      <h1>
+        <img
+          src="./Font-Awesome-SVGs/spider-solid-full.svg"
+          alt=""
+          width="40"
+          height="40"
+          aria-hidden="true"
+        />
+        El mundo de las arañas
+      </h1>
 
-        <nav>
-            <a href="./index.html" aria-current="page">Inicio</a>
-            <a href="./pages/informacionCookies.html">Política de cookies</a>
-            <a href="./pages/info.html">Información</a>
-            <a href="./pages/juego.html">Juego</a>
+      <nav>
+        <a href="./index.html" aria-current="page">Inicio</a>
+        <a href="./pages/informacionCookies.html">Política de cookies</a>
+        <a href="./pages/info.html">Información</a>
+        <a href="./pages/juego.html">Juego</a>
 
-            <button id="modoToggle" aria-pressed="false">
-                Claro / Oscuro
-            </button>
-        </nav>
+        <button id="modoToggle" aria-pressed="false">Claro / Oscuro</button>
+      </nav>
     </header>
 
     <!-- MAIN -->
     <main id="contenido">
+      <!-- Navegación lateral -->
+      <aside class="lateralNav">
+        <a href="./index.html" aria-current="page">Inicio</a>
+        <a href="./pages/informacionCookies.html">Política de cookies</a>
+        <a href="./pages/info.html">Información</a>
+        <a href="./pages/juego.html">Juego</a>
+      </aside>
 
-        <!-- Navegación lateral -->
-        <aside class="lateralNav">
-            <a href="./index.html" aria-current="page">Inicio</a>
-            <a href="./pages/informacionCookies.html">Política de cookies</a>
-            <a href="./pages/info.html">Información</a>
-            <a href="./pages/juego.html">Juego</a>
-        </aside>
+      <!-- Hero -->
+      <section class="hero" aria-labelledby="heroTitulo">
+        <h2 id="heroTitulo">Descubre el mundo de las arañas</h2>
+        <p>
+          Aprende y juega mientras descubres diferentes especies de este animal.
+        </p>
 
-        <!-- Hero -->
-        <section class="hero" aria-labelledby="heroTitulo">
-            <h2 id="heroTitulo">Descubre el mundo de las arañas</h2>
-            <p>Aprende y juega mientras descubres diferentes especies de este animal.</p>
+        <a href="./pages/info.html" class="btn">
+          Comenzar
+          <img src="images/spider.webp" alt="Ilustración de una araña" />
+        </a>
+      </section>
 
-            <a href="./pages/info.html" class="btn">
-                Comenzar
-                <img src="images/spider.webp" alt="Ilustración de una araña">
-            </a>
-        </section>
-
-        <!-- Introducción -->
-        <section class="intro" aria-labelledby="introTitulo">
-            <h2 id="introTitulo">¿Qué encontrarás aquí?</h2>
-            <ul>
-                <li>Curiosidades sobre especies de arañas</li>
-                <li>Mini-juego tipo Kahoot</li>
-            </ul>
-        </section>
-
+      <!-- Introducción -->
+      <section class="intro" aria-labelledby="introTitulo">
+        <h2 id="introTitulo">¿Qué encontrarás aquí?</h2>
+        <ul>
+          <li>Curiosidades sobre especies de arañas</li>
+          <li>Mini-juego tipo Kahoot</li>
+        </ul>
+      </section>
     </main>
 
     <!-- FOOTER -->
     <footer>
-        <p>Proyecto Estilos 2026 CIFP Ciudad Jardín – Koldo Aso</p>
+      <p>Proyecto Estilos 2026 CIFP Ciudad Jardín – Koldo Aso</p>
 
-        <section class="map" aria-labelledby="mapaTitulo">
-            <h2 id="mapaTitulo">Encuéntranos</h2>
+      <section class="map" aria-labelledby="mapaTitulo">
+        <h2 id="mapaTitulo">Encuéntranos</h2>
 
-            <iframe
-                title="Mapa con la ubicación del CIFP Ciudad Jardín"
-                aria-describedby="mapaDesc"
-                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Araba%20Kalea,%2039,%2001006%20Vitoria-Gasteiz&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-            </iframe>
+        <iframe
+          title="Mapa con la ubicación del CIFP Ciudad Jardín"
+          aria-describedby="mapaDesc"
+          src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Araba%20Kalea,%2039,%2001006%20Vitoria-Gasteiz&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+        >
+        </iframe>
 
-            <p id="mapaDesc">
-                Mapa interactivo con la localización del centro educativo
-            </p>
-        </section>
+        <p id="mapaDesc">
+          Mapa interactivo con la localización del centro educativo
+        </p>
+      </section>
 
-        <script src="./scripts/cookies.js"></script>
-        <script src="./scripts/main.js"></script>
+      <script src="./scripts/cookies.js"></script>
+      <script src="./scripts/main.js"></script>
     </footer>
-
-</body>
+  </body>
 </html>
