@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home -->
+  <url>
+    <loc>https://elrepproyectodwcifpjardkoldo.vercel.app/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Juego -->
+  <url>
+    <loc>https://elrepproyectodwcifpjardkoldo.vercel.app/pages/juego.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Información -->
+  <url>
+    <loc>https://elrepproyectodwcifpjardkoldo.vercel.app/pages/info.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Cookies -->
+  <url>
+    <loc>https://elrepproyectodwcifpjardkoldo.vercel.app/pages/informacionCookies.html</loc>
+    <priority>0.4</priority>
+  </url>
+
+</urlset>
